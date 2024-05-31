@@ -7,19 +7,21 @@ body {
     grid-template: 40% 60% / 35vw 65vw;
 }
 
-hr {
-    color: white;
-}
 
  /* header */
 header {
     margin: 0;
     background-color: hsl(209, 94%, 65%);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: white;
+    font-size: 60px;
+
 }
 
 /* figure */
@@ -27,13 +29,16 @@ h1 {
 figure{
     z-index: 1;
     margin: 0;
-    align-content: center;
+    margin-bottom: -40px;
+    overflow: visible;
 }
 
 img {
- width: 300px;
+ max-width: 300px;
  height: 400px;
- margin: 5px 0 0 100px;
+ margin: 10px 0 0 180px;
+ display: block;
+ object-fit: cover;
  z-index: 1;
 }
 
@@ -42,21 +47,37 @@ article{
   background-color: white;
   color: black;
   order: 1;
+  line-height: 3em;
+  margin-left: 100px;
 }
 
-hr {
-    color: white;
-    border: 0;
+article ul {
+    font-size: 20px;
+}
+
+article span {
+    color: grey;
+}
+
+.educationheading {
+    margin-top: 100px;
+}
+
+article hr {
+    width: 400px;
+    margin: 0;
+    margin-left: 10%;
+    border: 1px solid black;
 }
 
 /* aside */
 aside {
-    margin: 0;
-    padding-top: ;
     background-color: hsl(228, 64%, 41%);
     color: white;
     order: 0;
     z-index: 0;
+    padding-top: 40px;
+
 }
 
 aside hr {
@@ -72,8 +93,8 @@ h2 {
     margin-left: 10%;
 }
 
-.contactsheading {
-    margin-top: 80px;
+small {
+   margin-left: 15%;
 }
 
 .listcontacts  {
