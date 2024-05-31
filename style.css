@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto';
     display: grid;
     margin: 0;
-    grid-template: 40vh 60vh / 35vw 65vw;
+    grid-template: 40% 60% / 35vw 65vw;
 }
 
 hr {
@@ -32,9 +32,9 @@ figure{
 
 img {
  width: 300px;
- height: 370px;
- position: relative;
- margin: 20px 0 0 100px;
+ height: 400px;
+ margin: 5px 0 0 100px;
+ z-index: 1;
 }
 
 /* article */
@@ -52,11 +52,11 @@ hr {
 /* aside */
 aside {
     margin: 0;
+    padding-top: ;
     background-color: hsl(228, 64%, 41%);
     color: white;
     order: 0;
     z-index: 0;
-    padding-top: ;
 }
 
 aside hr {
@@ -72,14 +72,38 @@ h2 {
     margin-left: 10%;
 }
 
-
+.contactsheading {
+    margin-top: 80px;
+}
 
 .listcontacts  {
     list-style: none;
     font-size: 20px;
-    line-height: 2em;
+    line-height: 3em;
+}
+
+i {
+    margin-right: 10px;
+    font-size: 30px;
 }
 
 table {
-    margin-left: ;
+    margin:20px;
+    font-size: 20px;
+    border: 1px solid white;
+    line-height: 2em;
+}
+
+th {
+    width: 200px;
+    border: 1px solid white;
+}
+
+td {
+    border: 1px solid white;
+}
+
+.listskills {
+    font-size: 20px;
+    line-height: 2em;
 }
