@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    display: grid;
+    margin: 0;
+    grid-template: 40vh 60vh / 35vw 65vw;
+}
+
+hr {
+    color: white;
+}
+
+ /* header */
+header {
+    margin: 0;
+    background-color: hsl(209, 94%, 65%);
+    z-index: 1;
+}
+
+h1 {
+    color: white;
+}
+
+/* figure */
+
+figure{
+    z-index: 1;
+    margin: 0;
+    align-content: center;
+}
+
+img {
+ width: 300px;
+ height: 370px;
+ position: relative;
+ margin: 20px 0 0 100px;
+}
+
+/* article */
+article{
+  background-color: white;
+  color: black;
+  order: 1;
+}
+
+hr {
+    color: white;
+    border: 0;
+}
+
+/* aside */
+aside {
+    margin: 0;
+    background-color: hsl(228, 64%, 41%);
+    color: white;
+    order: 0;
+    z-index: 0;
+    padding-top: ;
+}
+
+aside hr {
+    width: 200px;
+    margin: 0;
+    margin-left: 10%;
+    border: 1px solid white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 10%;
+}
+
+
+
+.listcontacts  {
+    list-style: none;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+table {
+    margin-left: ;
+}
